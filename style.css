@@ -1,11 +1,13 @@
 .left-container{
     min-width: 320px;
-    min-height:1024px;
+    height: 1024px;
     background-color: white;
     position: absolute;
     top: 0px;
     bottom: 0px;
     box-shadow: 5px 0 20px grey;
+    overflow-y: auto;
+
 }
 @font-face {
     font-family: "TTLakes";
@@ -17,6 +19,7 @@
 }
 body{
     font-family: TTLakes;
+
 }
 .left-container{
     font-family: TTLakes;
